@@ -7,7 +7,9 @@ function Task6(props) {
 
         <nav>
             <a href={props.hLink}>Home  </a>
-            <a href={props.aLink}>About  </a>
+           |
+            <a href={props.aLink}>About  </a>|
+            
             <a href={props. ctLink}>contact  </a>
          </nav>
 
