@@ -17,9 +17,9 @@ function App() {
      <Task1  name="Raneem" /> <hr></hr>
      <Task2 lable="Click Me" /> <hr></hr>
       <Task3 name="Laptop" price="$999" descrbtion="Apowerful laptop for work and play"/><hr></hr>
-      <Task4 username="raneem" Email="raneem@gmail.com" Age="23" />
-      <Task5/> <br></br>
-      <Task6 hLink="#" aLink="#" ctLink="#"/><hr/>  
+      <Task4 username="raneem" Email="raneem@gmail.com" Age="23" /><br></br> <hr></hr>
+      <Task5/> <hr></hr>
+      <Task6 hLink="#" aLink="#" ctLink="#"/><hr></hr> 
       <Task7 label="click me" handleClick={() => alert("Button clicked")} /> <hr></hr>
         <Task8/>
 
