@@ -7,6 +7,9 @@ import Task5 from"./Components/day2/task5"
 import Task6 from"./Components/day2/task6"
 import Task7 from"./Components/day2/task7"
 import Task8 from"./Components/day2/task8"
+import Task9 from"./Components/day2/task9"
+import Task10 from"./Components/day2/task10"
+import Task11 from"./Components/day2/task11"
 
 
 export default 
@@ -21,7 +24,9 @@ function App() {
       <Task5/> <hr></hr>
       <Task6 hLink="#" aLink="#" ctLink="#"/><hr></hr> 
       <Task7 label="click me" handleClick={() => alert("Button clicked")} /> <hr></hr>
-        <Task8/>
+        <Task8/> <hr></hr>
+        <Task10/> <hr></hr>
+        <Task11/>
 
       
         </div>
