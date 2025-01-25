@@ -1,15 +1,15 @@
-import myimg from "../img/img.jpg";
+import myimg from "./photo-1488372759477-a7f4aa078cb6.avif";
 export default function Task13() {
   const cards = [
     {
       image: myimg,
       titel: "abdkakash",
-      age: "25",
+      age: "27",
     },
     {
       image: myimg,
       titel: "raneem",
-      age: "22",
+      age: "23",
     },
     {
       image: myimg,
@@ -23,9 +23,9 @@ export default function Task13() {
     },
   ];
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex" ,justifyContent:"space-evenly",  }}>
       {cards.map((card) => (
-        <div>
+        <div style={{border:"1px solid gray", margin:"10px", padding:"10px", borderRadius:"10px"}}>
           <img
             src={card.image} alt="error" style={{ width: "100px", height: "100px" }} />
           <h3>{card.titel}</h3>

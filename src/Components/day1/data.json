@@ -1,13 +1,12 @@
 {
-    "person":[{
-        "id":1,
-        "name":"ranem"
-    },{
-        "id":2,
-        "name":"rawan"
+
+    "header": {
+        "display": "flex",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "lightblue"
     },
-{
-    "id":3,
-    "name":"mohamad"
-}]
+    "container": {
+        "backgroundColor": "lightblue"
+    }
 }
